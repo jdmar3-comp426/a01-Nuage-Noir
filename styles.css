@@ -1,15 +1,17 @@
 body{
-    background-color: lightblue;
+    background-color: #add8e6;
 }
 h1{
     text-align: center;
 }
 
-p {
+p:hover {
     text-align: left;
     font-family: Verdana, serif;
     color: floralwhite;
     width: 500px;
     border: 2px solid Gray;
 }
+
+
 
