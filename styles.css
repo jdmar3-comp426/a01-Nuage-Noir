@@ -1,17 +1,83 @@
 body{
     background-color: #add8e6;
+    align-content: center;
 }
+
 h1{
     text-align: center;
 }
 
-p:hover {
-    text-align: left;
-    font-family: Verdana, serif;
-    color: floralwhite;
-    width: 500px;
-    border: 2px solid Gray;
+h1.title {
+    text-align: center;
+    font-family: "Courier New", sans-serif;
+}
+#front-message {
+    font-family: "Helvetica Neue", sans-serif;
 }
 
+#front-message:hover {
+    font-family: "Verdana", sans-serif;
+    color: floralwhite;
+    width: 700px;
+    border: 3px solid Gray;
+}
 
+#course-list {
+
+    font-family: "Arial Black", sans-serif;
+    width: 370px;
+    border: 2px dashed white;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+div.content {
+    text-align: center;
+    height:100px;
+    width: 100%;
+    color: white;
+    background-color: cornflowerblue;
+    border: 2px dashed white;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: circle;
+    width: 120px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+a.back-button:link {
+    position: fixed;
+    text-align: center;
+    vertical-align: center;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: floralwhite;
+}
+
+a.back-button:visited {
+    position: fixed;
+    text-align: center;
+    bottom: 100px;
+    right: 0;
+    width: 50px;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: floralwhite;
+}
 
