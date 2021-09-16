@@ -11,7 +11,7 @@ h1.title {
     text-align: center;
     font-family: "Courier New", sans-serif;
 }
-#front-message:first-child {
+#front-message {
     font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -30,7 +30,7 @@ h1.title {
     border-radius: 10px;
 }
 
-h2{
+#course-list h2{
     text-align: center;
 }
 
@@ -50,6 +50,10 @@ ul {
     background-color: white;
     border: 2px solid grey;
     border-radius: 10px;
+}
+
+ul:first-child {
+    font-family: "Arial Black", sans-serif;
 }
 
 a.back-button:link {
